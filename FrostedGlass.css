@@ -18,7 +18,7 @@
    * Background image variables
    */
   --background-image: url("https://i.redd.it/v56334uczd151.jpg"); /* Main background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
-  --background-image-blur: 5px; /* Blur intensity of --background-image | Must end in px | DEFAULT: 5px */
+  --background-image-blur: 8px; /* Blur intensity of --background-image | Must end in px | DEFAULT: 5px */
   --background-image-size: cover; /* Size of the background image | DEFAUT: cover | OPTIONS: cover, contain */
   --background-image-position: center; /* Position of background image | DEAFULT: center | OPTIONS: top, right, bottom, left, center */
   /*
@@ -26,7 +26,7 @@
    * This will only affect the user profile (when clicking on a member in the members list)
    */
   --popout-image: var(--background-image); /* Background image for popouts and modals | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
-  --popout-image-blur: 5px; /* Blur intensity of --popout-image | Must end in px | DEFAULT: 5px */
+  --popout-image-blur: 8px; /* Blur intensity of --popout-image | Must end in px | DEFAULT: 5px */
   --popout-image-size: cover; /* Size of the popout/modal image | DEFAUT: cover | OPTIONS: cover, contain */
   --popout-image-position: center; /* Position of popout/modal image | DEAFULT: center | OPTIONS: top, right, bottom, left, center */
   /*
@@ -72,7 +72,7 @@
     * Visit https://fonts.google.com and select one to your liking.
     * Now just follow this tutorial: https://imgur.com/a/CNbw7xC
     */
-  --font: "gg sans";
+  --font: "bookman";
   /*
    * ~~DO NOT TOUCH~~
    * Removing this will display an annoying update banner.
